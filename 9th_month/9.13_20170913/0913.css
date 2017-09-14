@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url("normalize.css");
+@import url("reset.css");
+.wrapper {
+  width: 940px;
+  margin: 0px auto;
+}
+
+.a11y-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.navigation .main-menu {
+  background-color: orange;
+  height: 47px;
+}
+
+.navigation .main-menu>li {
+  float: left;
+  position: relative;
+}
+
+.main-menu span {
+  padding: 0px 20px;
+  line-height: 47px;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 47px;
+  font-size: 0px;
+  white-space: nowrap;
+  display: none;
+}
+
+.sub-menu li,
+.sub-menu a {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.sub-menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.sub-menu a {
+  padding: 5px 10px 5px 0px;
+  margin-right: 5px;
+}
+
+.sub-menu-active {
+  display: block !important;
+}
